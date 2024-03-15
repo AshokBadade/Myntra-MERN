@@ -1,0 +1,71 @@
+.footercontainer {
+   
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstbox {
+    margin-top:20px;
+}
+
+
+.storelogo img {
+    height:7vh ;
+    width: 10wh;
+    margin-right: 2vh;
+}
+
+.socialmedialogos{
+    display: flex ;
+    height: 15vh;
+}
+
+.socilogo{
+    margin-right: 2vh;
+}
+
+.storebox p {
+    margin-bottom:10px ;
+}
+
+.box41{
+    display: flex ;
+    margin-bottom:5vh ;
+    height:7vh ;
+}
+
+.box41 p {
+    margin-left: 2px;
+}
+
+
+.ftheading{
+    color: black;
+    font-weight:bold;
+    margin-bottom: 5vh;
+}
+
+
+.POPULARSEARCHES {
+    width: 90% ;
+    margin-bottom : 20px ;
+    margin-left: 3vw;
+}
+
+.POPULARSEARCHES p {
+    margin-left : 20px ;
+    margin-top: 20px ;
+}
+
+.bottomsearch{
+    font-weight: 200;
+}
+
+.lastbox{
+    width:90vw ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

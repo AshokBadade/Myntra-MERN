@@ -1,8 +1,20 @@
 
 .box{
-    height:200px;
-    width: 150px;
-    background-color:red ;
+    height:240px;
+    width: 160px;
+    background-color:#F13AB1 ;
     margin: 10px 10px 10px 10px;
 
+}
+
+.categoryimg {
+    height:65%;
+    width: 90%;
+    margin:5% ;
+    margin-bottom: 0;
+}
+
+.Dicount{
+    font-size:20px ;
+    font-weight: bold;
 }

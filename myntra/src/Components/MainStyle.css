@@ -1,9 +1,15 @@
 .category {
    
-    width: 90%;
+    width: 99%;
     margin:auto ;
-    background-color: aqua ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
+}
+
+.AppstoreBanner img {
+    width: 90vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
