@@ -1,0 +1,28 @@
+.bar p {
+    margin-left: 1.4%;
+    font-weight: 500;
+}
+
+.bar1 {
+    height: 7vh;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-bottom: 0%;
+}
+
+select {
+    height: 7vh;
+    width:40vh ;
+    font-weight:600;
+}
+
+.bar1 form{
+    margin: 0 ;
+    margin-left: 70%;
+}
+
+.bar1 p{
+    margin-left: 1.4%;
+    font-weight: 700;
+}

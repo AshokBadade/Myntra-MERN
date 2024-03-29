@@ -1,9 +1,15 @@
 import "./CategoryBoxStyle.css"
+import { Link } from "react-router-dom";
 
 function CategoryBox({url}) {
+     
+  function goto(){
 
-    return(<>
-      <div className="box">
+  }
+
+    return(<>  
+      <Link to="/category" >
+      <div className="box" onClick={goto} >
          <img src ={url} className="categoryimg" />
          <center>
          <p>Women's ethic year</p>
@@ -11,6 +17,7 @@ function CategoryBox({url}) {
          <p>Shop Now</p>
          </center>
       </div>
+      </Link>
     </>)
 }
 

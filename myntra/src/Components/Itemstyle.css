@@ -1,0 +1,56 @@
+.Itemcontainer{
+    height : 65vh ;
+    width: 21%;;
+    background-color: white;
+    margin: 20px 20px 20px 20px;
+}
+
+.itemimg {
+    height: 75%;
+    width: 100%;
+}
+
+.brandname{
+    font-weight:700 ;
+}
+
+.Itemname{
+    font-weight:300 ;
+}
+
+
+.price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price p {
+    margin-right: 2%;
+}
+
+.p1{
+    font-weight:500 ;
+    font-size: 15px;
+}
+
+.p2{
+    font-weight:350 ;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.p3{
+    color: red;
+    font-size: 13px;
+}
+
+.rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CiHeart {
+    color:red ;
+}

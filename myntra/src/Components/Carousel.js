@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './cstyle.css';
 import React, { useState } from 'react';
 
@@ -49,6 +50,7 @@ function Carousel(){
   
   
 return(<>
+<Link to="/category">
 <div className="slider">
     <main>
     <img src="images/tops.png" className="slide" alt="" />
@@ -58,9 +60,9 @@ return(<>
     <img src="images/hrx.png" className="slide" alt="" />
     <img src="images/handbag.png" className="slide" alt="" />
   </main>
-     
   </div>
-     {/* { setTimeout(goNext1,4000)} */}
+  </Link>
+     { setTimeout(goNext1,4000)}
 </>) ;
 
 

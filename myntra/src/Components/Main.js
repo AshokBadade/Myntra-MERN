@@ -1,5 +1,7 @@
 import "./MainStyle.css"
 import  CategoryBox from "./CategoryBox"
+import Carousel from './Carousel';
+
 
 function Main(){
 
@@ -19,6 +21,7 @@ function Main(){
     "images/Categories/8.png",] ;
 
    return (<>
+         <Carousel/>
         <div className="category">
         {
             arrimages.map(

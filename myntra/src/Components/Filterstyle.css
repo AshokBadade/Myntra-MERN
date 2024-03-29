@@ -1,0 +1,30 @@
+
+input {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.Filter{
+    margin-top: 10%;
+    margin-left: 7%;
+   
+}
+
+.Filter p {
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+label{
+    font-weight:400 ;
+}
+
+form{
+    margin-top:10% ;
+}
+
+hr{
+  margin-top: 5%;
+
+}
