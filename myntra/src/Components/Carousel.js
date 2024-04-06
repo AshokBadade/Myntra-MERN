@@ -62,7 +62,7 @@ return(<>
   </main>
   </div>
   </Link>
-     { setTimeout(goNext1,4000)}
+     {/* { setTimeout(goNext1,4000)} */}
 </>) ;
 
 

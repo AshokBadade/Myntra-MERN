@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import {  RouterProvider ,createBrowserRouter } from 'react-router-dom';
 import CategoryPage from './Components/CategoryPage';
 import Main from './Components/Main';
+import ItemInfo from './Components/ItemInfo';
+import Bag from './Components/Bag';
+import Wishlist from './Components/Wishlist';
 
 
 const router = createBrowserRouter([
@@ -13,7 +16,10 @@ const router = createBrowserRouter([
   element:<App/> ,
   children:[
     {path:"/",element:<Main/> },
-    {path:"/category",element:<CategoryPage/> }
+    {path:"/category",element:<CategoryPage/> },
+    {path:"/iteminfo",element:<ItemInfo/> },
+    {path:"/bag",element:<Bag/> },
+    {path:"/wishlist",element:<Wishlist/> }
   ],
 },
  

@@ -1,0 +1,23 @@
+.Wishlistdiv{
+    width: 90%;
+    margin-left: 5% ;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.Wishlistheading{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 4vh;
+}
+
+.Wishlistheading_p1{
+    margin-right: 0.5%;
+    font-weight: 600;
+}
+
+.Wishlistheading_p2{
+    font-weight: 300;
+}

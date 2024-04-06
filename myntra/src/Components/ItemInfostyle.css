@@ -1,0 +1,189 @@
+button{                    
+    height:0 ;
+    width: 0;
+}
+
+
+.iteminfo{
+    width: 96%;
+    /* background-color:aqua ; */
+    margin: 2%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iteminfobox1{
+    width: 60%;
+    margin-right: 2%;
+    flex-wrap: wrap;
+}
+
+.iteminfobox2{
+    width: 38%;
+}
+
+.zoomphoto{
+    width: 48%;
+    height: 80vh;
+    margin-right: 1%;
+}
+
+.iteminfotitle{
+    font-weight:600 ;
+    font-size: 4.5vh;
+}
+
+.iteminfotitle2{
+    font-weight:300 ;
+    font-size: 3.5vh;
+}
+
+.iteminfobox2_1_1{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+
+
+.iteminfoprice{
+    font-size: 4.5vh;
+    font-weight: 600;
+    margin-right: 3%;
+}
+
+
+.MRP{
+    font-size: 3.5vh;
+    margin-right: 1%;
+    font-weight: 350;
+}
+
+.iteminfopriceoriginal{
+    font-size: 3.5vh;
+    margin-right: 3%;
+    font-weight: 350;
+    text-decoration: line-through;
+}
+
+.iteminfopricediscount{
+    font-size: 4vh;
+    color: orange;
+    font-weight: 500 ;
+}
+
+
+.inclusive{
+    color: green;
+    font-weight:500;
+    margin-top: 1.5%;
+}
+
+.Iteminfobuttons{
+    display: flex;
+    margin-top: 4%;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.AddToBagbutton  {
+    height: 10vh; 
+    width: 50%;  
+    background-color:  rgba(241, 58, 177) ;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 7px ;
+    cursor: pointer;
+}
+
+.AddToBagbutton:hover {
+    background-color:  rgba(241, 58, 177,0.8) ;
+}
+
+.Wishlistbutton{
+    height: 10vh; 
+    width: 35%;  
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border: 0.5px solid black;
+    border-radius: 7px ;
+    cursor: pointer;
+}
+
+.Iteminfobuttons p {
+    margin-left: 3%;
+}
+
+
+.productdetails{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productdetails div {
+    width: 43%;
+    margin-top: 3%;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    margin-right: 4%;
+    padding-bottom: 2%;
+}
+
+.productdetails_p1 {
+    font-size: 12px ;
+    font-weight: 300;
+}
+
+.productdetailsheading{
+    margin-top:5% ;
+    font-weight: 600;
+}
+
+.deliveryinfo{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.deliveryinfo div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top:4% ;
+    width: 100%;
+}
+
+.deliveryinfo img {
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+}
+
+.deliveryinfo p {
+    font-weight: 600;
+}
+
+.ratingiteminfo{
+    width: 32%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgba(105, 105, 105,0.3);
+    margin-top:2%;
+}
+
+.ratingp1{
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.ratingp2{
+    margin-left:1%;
+}

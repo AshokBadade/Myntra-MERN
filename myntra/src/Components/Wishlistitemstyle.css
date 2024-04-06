@@ -1,0 +1,50 @@
+.Wishlistitemdiv{
+    width:20% ;
+    height: 70vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    border: 1px solid rgb(0, 0, 0,0.3);
+    border-bottom: none;
+}
+
+.Wishlistitemdiv img {
+    width: 100%;
+    height:72% ;
+    margin-bottom: 2%;
+}
+
+.Wishlist_movetobag{
+    height:5vh ;
+    background-color: red;
+}
+
+.price2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price2 p {
+    margin-right: 3%;
+}
+
+.placeorder2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    /* background-color: rgb(255, 63, 108); */
+    border: 1px solid rgb(0, 0, 0,0.3);
+    color: rgb(255, 63, 108);
+    margin-top: 2%;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px ;
+ }
+
+ .placeorder2:hover{
+    background-color: rgb(255, 63, 108,0.5); 
+ }

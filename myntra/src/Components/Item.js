@@ -1,12 +1,13 @@
 import "./Itemstyle.css"
 import { IoMdStar } from "react-icons/io";
 import { CiHeart } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 
 function Item(){
   return(<>
      <div className="Itemcontainer">
-        <img src="images/Categories/denimjacket.png" className="itemimg"/>
+      <Link to="/iteminfo"> <img src="images/images6side/1.png" className="itemimg"/> </Link>
         <div className="rating"><p>4<IoMdStar/> | 150</p> 
         </div>
 
